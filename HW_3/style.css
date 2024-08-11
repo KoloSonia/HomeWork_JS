@@ -1,0 +1,26 @@
+.divStyle{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    border: 1px solid grey;
+}
+.product-card{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 200px;
+    height: 300px;
+    margin: 2px;
+    border: 1px solid grey;
+}
+.product-card>.product-image{
+    width: 100%;
+    object-fit: cover;
+}
+.product-card>.product-title:first-letter{
+    text-transform: uppercase;
+}
