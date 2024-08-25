@@ -120,7 +120,7 @@ let products = [
         price: 15,
         image: 'https://www.yogi-life.com/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FrDqxvPKQRqZLAFU4LVJw&w=3840&q=75'
         // замінила картинку чаю з того ж сайту тому що вказаний шлях уже був недоступний.
-    },
+    }
 ];
 
 for (let i = 0; i < products.length; i++) {
